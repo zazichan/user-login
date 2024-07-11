@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(45deg, #33a6ff, #0000de);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.600);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-control {
+    margin-bottom: 15px;
+}
+
+.input-control label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.input-control input {
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.input-control input:focus {
+    outline: none;
+    border-color: #0f2027;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background: linear-gradient(45deg, #33a6ff, #0000de);
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid #33a6ff;
+    color: #0000de;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.toggle-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #203a43;
+    text-decoration: none;
+}
+
+.toggle-link:hover {
+    text-decoration: underline;
+}
+
+.toggle-password-btn {
+    position: relative;
+    top: -52px;
+    left: 370px;
+    width: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.toggle-password-btn:hover {
+    width: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.toggle-password-btn img {
+    width: 20px;
+    height: auto;
+    display: block;
+}
